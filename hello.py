@@ -1,4 +1,7 @@
 #!/usr/bin/env python
 
-print("hello zach!")
+import requests
 
+print("hello world")
+
+print(requests.get("https://google.com/").text)
