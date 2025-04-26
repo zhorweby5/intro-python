@@ -47,11 +47,24 @@ name = "intro-python"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "python-cowsay" },
     { name = "requests" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "requests", specifier = ">=2.32.3" }]
+requires-dist = [
+    { name = "python-cowsay", specifier = ">=1.2.0" },
+    { name = "requests", specifier = ">=2.32.3" },
+]
+
+[[package]]
+name = "python-cowsay"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/08/3d/4e2891d47b4d9653f3c3aafd844877644ae95a2e8821058adbcf59696ba5/python-cowsay-1.2.0.tar.gz", hash = "sha256:eae49ea3abc00dba38f166e92f2e8f103a75182a944eb7b79aab5b515ca0363d", size = 19945, upload_time = "2024-03-16T05:10:18.787Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/4f/b80170bcd5fbbc86d7608002a3056a610426fe7ca4605d8354528639ac48/python_cowsay-1.2.0-py3-none-any.whl", hash = "sha256:69aa91072e36ff27ceb8261718323c9ab275b3470b2260841c5b9ad5d83e8ff3", size = 26553, upload_time = "2024-03-16T05:10:16.625Z" },
+]
 
 [[package]]
 name = "requests"
