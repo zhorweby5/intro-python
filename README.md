@@ -235,3 +235,6 @@ Arguments=add new information to an existing file
 When one file "talks" to another file, it is an argument
 TO find certain files you need to write cd (file name) 
 suc as cd intro-python
+
+Basics of Python
+
