@@ -24,7 +24,7 @@
 * command tab: switch programs
 * command c: copy
 * command q: quit running program
-* command v:  paste
+* command v:  pastespo
 * command t: new tab chrome/terminal only
 * command w: closes current tab chrome/terminal only
 
@@ -45,7 +45,7 @@
   * Run File with another Program installed
   * /usr/bin/env Searches for another program somewhere on the computer (python)
   * Env finds the file for user
-
+  * Check to see if the interpreter exists with 'which python' if unsure. 
 ## Running Python Program
 
 * in your Python file:
@@ -56,7 +56,7 @@
   * `chmod u+x file.py`:  add execute permissions for the owning user on file.py
   * `./file.py` ---- run the file, where the file is named file.py
 * Change code: return to vim file, click insert, change written code,
- and then enter code again in bash
+ and then enter code again in bash 
 
 ##  Git
 
@@ -238,3 +238,43 @@ suc as cd intro-python
 
 Basics of Python
 
+1. Inside python, # This is how we take notes inside our code and disable code on any line starting with the #
+
+# ctrl + / to comment out a line
+# ctrl + s to save work when switching between programs (replaces :wq)
+# "bobby" is a string: a string is a sequence of characters
+# 0.5 is a floating point number aslo known as a float
+# True and False are booleans, the capitalization matters
+# There is also None, which is a special value that means "nothing"
+# What happens if we print(1 + None) ?
+# What happens if we print(1 + 0.5) ?
+# What happens if we print(1 + True) ?
+# What happens if we print(1 + False) ?
+# What happens if we print(1 + "hello") ?
+# What happens if we print(True + "hello")
+# You cannot print an integer and a boolean together. 
+# You cannot print an integer and a booby.
+# You cannot print an integer and a None.
+# You can print an integer and an integer.
+# You can print a boolean and a 
+
+#What is Print?
+# print is a function that takes an argument and prints it to the console
+# print is a built in function that takes an argument and prints it to the console
+
+# the name of the function is add
+# affter the function name is a set of parentheses and that defines the parameters of the function
+# each input is separated by a comma
+# the colon after the function name indicates that this is a function definition
+# the first line is the function signature
+# the second line is the function body
+# def is short for define
+# input is defined by paranthesis 
+# whatever is on the line of return is the output of the function
+# the return statement is used to return a value from a function
+# so the print function takes the body (return values ) and interprets them to print them to the console
+# A function call is a variable that is defined by the function name and the parameters
+
+# Homework 5/10 10 PM
+# define a function named subtract. YOu can guess how it should work. 
+# Call that function with the inputs 10 and 7, and print the output.
